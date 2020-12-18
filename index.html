@@ -4,8 +4,10 @@
   <meta charset="UTF-8">
   <title> Web開発の練習１</title>
   <link rel="stylesheet" href="mystyle.css"> <!-- この行を追加 -->
-  <script src="ex6-1.js"></script> <!-- この行を追加
--->
+  <script src="ex6-1.js"></script> 
+<script src="ex6-5.js"></script>
+<script src="ex6-7.js"></script>
+<script src="ex6-8.js"></script>
 </head>
 <body>
   <!--文字の大きさの練習-->
@@ -224,5 +226,12 @@ href="https://www.josai.ac.jp/club/ekiden_joshiekiden.html">女子駅伝部</a><
 ondblclick="alert('Hello, saki!');">
 -->
 <input type="button" value="ここをクリック" onclick="saygoodbye();">
+<input type="button" value="ここをクリック" onclick="sayhello61();">
+<h1>変数の練習</h1><input type="button" value="あいさつ" onclick="sayhello65();"><input type="button" value="太郎" onclick="taro65();"><input type="button" value="花子" onclick="hanako65();">
+<h1>引数の練習</h1><input type="button" value="あいさつ" onclick="sayhello67();"><input type="button" value="太郎" onclick="someone('太郎');"><input type="button" value="花子" onclick="someone('花子');">
+<input type="button" value="レイ" onclick="someone('レイ');">
+<input type="button" value="シンジ" onclick="someone('シンジ');">
+<input type="button" value="アスカ" onclick="someone('アスカ');">
+<h1>JavaScriptによる変更の練習</h1><input type="button" value="あいさつ" onclick="sayhello68();"><input type="button" value="太郎" onclick="taro68();"><input type="button" value="花子" onclick="hanako68();"><p id="who68">world</p>
 </body>
 </html>
